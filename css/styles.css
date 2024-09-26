@@ -144,13 +144,14 @@
 }
 
 #recipes img{
-width: 50%;
+width: 100%;
 justify-items: center;
 border-radius: 15%;
 padding-bottom: 20px;
 }
 #recipes p{
  justify-content: center;
+ font-family: sans-serif;
 }
 #recipes h2{
     padding-bottom: 20px;
