@@ -128,18 +128,31 @@
 
 
 
-
+/* RECIPE HTML STYLES */
 #recipes{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 35px;
     grid-row-gap: 35px;
+
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.377);
+
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #recipes img{
-width: 30%;
-justify-content: center;
+width: 50%;
+justify-items: center;
+border-radius: 15%;
+padding-bottom: 20px;
 }
 #recipes p{
  justify-content: center;
+}
+#recipes h2{
+    padding-bottom: 20px;
+    font-family: cursive;
 }
