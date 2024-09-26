@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+}
+
+/* navigation section 1 */
+.navbar1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.995);
+    height: 10%;
+    position:sticky;
+}
+
+.navbar1 h1 {
+    color: gold;
+    font-family: cursive;
+    margin-left: 40%;
+}
+
+.navbar1 button {
+    border-color: gold;
+    color: white;
+    background-color: black;
+}
+
+
+/* navigation section 2 */
+.navbar2 {
+    gap: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar2 a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.navbar2 :hover {
+    color: gold;
+}
+
+/* Background Image */
+
+.background-image {
+    width: 100%;
+    background-color: black;
+}
+
+.background-image img {
+    width: 100%;
+    height: 50rem;
+}
+
+
+
+/* about section */
+.about {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    background-color: black;
+}
+
+.about h1 {
+    color: white;
+    font-family: sans-serif;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+
+.about-txt h1 {
+    color: gold;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.about-txt p {
+    color: white;
+    text-align: center;
+}
+
+.about-image {
+    width: 100%;
+}
+
+.about-image img {
+    width: 70%;
+    border-radius: 5%;
+    border-color: gold;
+}
+
+
+/* Carousel section */
+.carousel-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 35px;
+    grid-row-gap: 0px;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: black;
+}
+
+.carousel-image{
+    width: 100%;
+}
+.carousel-image img{
+    width: 100%;
+}
+
+
+
+
+#recipes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 35px;
+}
+
+#recipes img{
+width: 30%;
+justify-content: center;
+}
+#recipes p{
+ justify-content: center;
+}
