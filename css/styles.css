@@ -27,7 +27,7 @@
 
 
 /* navigation section 2 */
-.navbar2 {
+#navbar2 {
     gap: 20px;
     position: fixed;
     left: 0;
@@ -37,14 +37,14 @@
     justify-content: center;
 }
 
-.navbar2 a {
+#navbar2 a {
     text-decoration: none;
     color: white;
     font-family: sans-serif;
 
 }
 
-.navbar2 :hover {
+#navbar2 :hover {
     color: gold;
 }
 
@@ -168,7 +168,7 @@ font-family: cursive;
 }
 
 /* RECIPE HTML STYLES */
-#recibar{
+#reci-bar{
     gap: 20px;
     position: fixed;
     left: 0;
@@ -178,14 +178,14 @@ font-family: cursive;
     justify-content: center;
 }
 
-#recibar a {
+#reci-bar a {
     text-decoration: none;
     color: white;
     font-family: sans-serif;
 
 }
 
-#recibar :hover {
+#reci-bar :hover {
     color: gold;
 }
 
